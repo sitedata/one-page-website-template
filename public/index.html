@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="fullscreen-landing">
+      <div class="logo">
+        <img src="images/logo.png" />
+      </div>
+      <a id="arrow-down" href="">
+        <span></span>
+      </a>
+    </header>
+
+    <article id="main" class="main">
+      <h2>About Me</h2>
+
+      <section class="section-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+          consectetur congue est, vitae pretium tortor mollis a. Pellentesque
+          varius nibh vel dui vulputate interdum. Etiam a tincidunt ex, a
+          venenatis urna. Aliquam eget odio id nisi auctor vulputate. Curabitur
+          bibendum consectetur lorem semper mollis. Quisque vulputate ex non
+          arcu egestas, sit amet accumsan tellus varius. Curabitur bibendum nunc
+          vel velit rutrum convallis.
+        </p>
+        <p>
+          Sed in pharetra sapien, vitae consequat ex. In dignissim euismod eros,
+          ac porta leo sollicitudin at. Cras augue erat, ullamcorper eget tempor
+          at, rhoncus in ipsum. Quisque consectetur diam vel euismod facilisis.
+          Donec id tortor enim. Quisque porttitor urna id egestas sodales. In
+          finibus libero at urna porta, non rutrum justo viverra.
+        </p>
+      </section>
+
+      <h2>Contact Me</h2>
+
+      <section class="contact">
+        <div>
+          <a href="https://mastodon.social/">@mastodon</a>
+        </div>
+
+        <form id="contact-form">
+          <div>
+            <label for="contact-name">Name</label>
+            <input
+              type="text"
+              id="contact-name"
+              name="contact-name"
+              placeholder="Your name"
+              required="required"
+            />
+          </div>
+          <div>
+            <label for="contact-email">E-mail</label>
+            <input
+              type="email"
+              id="contact-email"
+              name="contact-email"
+              placeholder="Your e-mail"
+              required="required"
+            />
+          </div>
+          <div>
+            <label for="contact-message">Message</label>
+            <textarea
+              id="contact-message"
+              name="contact-message"
+              placeholder="Your message"
+              style="resize: none"
+              rows="9"
+              required="required"
+            ></textarea>
+          </div>
+          <div>
+            <button type="submit">Send</button>
+          </div>
+        </form>
+        <div>
+          <a href="privacy.html">Privacy policy</a>
+        </div>
+      </section>
+    </article>
+
+    <footer class="copyright">
+      <p>Copyright &copy; 2023 My Page.</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
